@@ -1,10 +1,10 @@
-﻿const CACHE_NAME = 'ble-app-v1';
+﻿const CACHE_NAME = 'ble-app-v2';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icon-192.png',
-  '/icon-512.png'
+  './',
+  './index.html',
+  './manifest.json',
+  './icon-192.png',
+  './icon-512.png'
 ];
 
 // Установка Service Worker и кэширование файлов
