@@ -2388,11 +2388,13 @@ document.querySelectorAll('.key').forEach(key => {
 // Функция запуска serviceWorker для PWA
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js')
+      // Убрали '/' перед sw.js, чтобы искать файл внутри папки /iron/
+      navigator.serviceWorker.register('sw.js', { scope: './' })
         .then((reg) => console.log('Service Worker успешно зарегистрирован!', reg))
         .catch((err) => console.error('Ошибка регистрации Service Worker:', err));
     });
 }
+
 
 	</script>
 </body>
