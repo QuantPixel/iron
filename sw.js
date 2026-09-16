@@ -1,13 +1,10 @@
-// Меняйте имя версии (например, v1 на v2), когда обновляете index.html!
-const CACHE_NAME = 'iron-control-v8'; 
-
+const CACHE_NAME = 'ble-app-v9';
 const ASSETS = [
-  'index.html',
-  'manifest.json',
-  'icon-192.png',
-  'icon-512.png',
-  'icon-192-maskable.png',
-  'icon-512-maskable.png'
+  './',
+  './index.html',
+  './manifest.json',
+  './icon-192.png',
+  './icon-512.png'
 ];
 
 // 1. Установка: кешируем файлы
