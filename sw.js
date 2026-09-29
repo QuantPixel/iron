@@ -1,4 +1,4 @@
-﻿const CACHE_NAME = 'ble-app-v24';
+﻿const CACHE_NAME = 'ble-app-v25';
 const ASSETS = [
   './',
   './index.html',
